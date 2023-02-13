@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css" />
+
+
+</head>
+
+<body class="bg-black">
+  <header class="bg-black fixed-top">
+    <div class="container ">
+      <div class="row g-0">
+        <div class="col-lg-11 col-10 bg-black d-flex align-items-center ">
+
+          <p class="logo animated ">ASS.</p>
+        </div>
+        <div id="toogle" class="col-lg-1 col-2 bg-color  pt-4 pb-4 mouse" onclick="openNav()">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </header>
+  <div class="section bg-black mt-5">
+    <div class="container">
+
+      <div class="row justify-content-center bg-dark bg-gradient align-items-center m-0">
+
+        <div class="col p-5 augusto">
+        </div>
+        <div class="col-lg-7 col-md p-5 justify-content-center">
+
+          <div class="p-lg-5">
+            <h2 class="animated canaro-bold ps-lg-5 pr-5 ">
+              Augusto Silvério Soares
+            </h2>
+            <h4 class=" text-light canaro-canaromedium ps-lg-5 pr-5 ">
+              Desenvolvedor Full Stack
+            </h4>
+            <br>
+            <p class=" canaro-book text-light ps-lg-5 pr-5 lh-lg">
+              Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade Tecnológica Federal do Paraná
+              (UTFPR),
+              possuo vasta experiência em
+              desenvolvimento de sistemas, o que me permite criar soluções eficientes e atraentes para a web.
+            </p>
+            <p class=" canaro-book text-light ps-lg-5 pr-5 lh-lg">
+              Com uma
+              combinação de habilidades técnicas e de marketing digital, estou altamente
+              capacitado e sou capaz de atender às necessidades dos clientes e ajudá-los a alcançar seus objetivos de
+              negócios.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container pt-5">
+    <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3">
+      <div class="col">
+        <div class="p-5 services">
+          <i class="fa-solid fa-code fa-beat text-black pt-3"></i>
+
+          <h3 class="canaro-bold text-black pt-3">Desenvolvimento<br>Full Stack</h3>
+          <p class="canaro-book text-black pt-3">Domínio nos principais frameworks javascript do mercado para o
+            front-end e back-end</p>
+          <div class="d-flex d-inline ">
+            <i class="fa-brands fa-js text-black fa-2xl "></i>
+            <i class="fa-brands fa-react text-black fa-2xl ps-3"></i>
+            <i class="fa-brands fa-node-js fa-2xl fa-2xl ps-3 text-black"></i>
+            <i class="fa-brands fa-php fa-2xl ps-3 text-black"></i>
+            <i class="fa-brands fa-java ps-3 text-black fa-2xl"></i>
+            <i class="fa-brands fa-laravel ps-3 text-black fa-2x"></i>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-5 services">
+          <i class="fa-solid fa-code fa-beat text-black pt-3"></i>
+
+          <h3 class="canaro-bold text-black pt-3">Marketing<br>Digital</h3>
+          <p class="canaro-book text-black pt-3">Domínio nos principais frameworks javascript do mercado para o
+            front-end e back-end</p>
+          <div class="d-flex d-inline ">
+            <i class="fa-brands fa-google fa-2xl text-black"></i>
+            <i class="fa-brands fa-facebook fa-2xl  ps-3 text-black"></i>
+            <i class="fa-brands fa-instagram fa-2xl  ps-3 text-black"></i>
+            <i class="fa-brands fa-whatsapp fa-2xl  ps-3 text-black"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="p-5 services"><i class="fa-solid fa-code fa-beat text-black pt-3"></i>
+
+          <h3 class="canaro-bold text-black pt-3">Design<br>Gráfico</h3>
+          <p class="canaro-book text-black pt-3">Criação de marcas e padronização de dentidade visual, diagramação,
+            design para diversos tipos de mídias</p>
+          <div class="d-flex d-inline ">
+            <i class="fa-brands fa-google fa-2xl text-black"></i>
+            <i class="fa-brands fa-facebook fa-2xl  ps-3 text-black"></i>
+            <i class="fa-brands fa-instagram fa-2xl  ps-3 text-black"></i>
+            <i class="fa-brands fa-whatsapp fa-2xl  ps-3 text-black"></i>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js"></script>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+
+    $("#toogle").hover(function () {
+      $("#toogle").children("span").each(function () {
+        $(this).removeClass("line");
+        $(this).addClass("lineh");
+      });
+    }, function () {
+      $("#toogle").children("span").each(function () {
+        $(this).removeClass("lineh");
+        $(this).addClass("line");
+      });
+    })
+  </script>
+</body>
+
+</html>
